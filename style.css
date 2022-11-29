@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Roboto:ital,wght@0,100;0,300;1,100&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+
+    
+}
+body{
+    background: url(images/abstract_geometric_banner_design_2507.jpg);
+    font-family: 'Playfair Display', serif;
+ 
+
+}
+header{
+    /* background-color: aliceblue; */
+   
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    text-align: center;
+
+  
+    padding: 30px 10%;
+   
+
+}
+.list{
+    display: flex;
+    gap:10px;
+    list-style: none;
+  
+}
+.logo{
+    height:70px;
+    width: 70 px;
+
+}
+.p1{
+    font-size: 50px;
+}
+.p2{
+    font-size: 40px;
+}
+footer{
+  
+    position:sticky;
+    text-align:left;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 3px;
+    position: fixed;
+    color: white;
+  
+    
+
+}
+.logo{
+    height: 70px;
+    width: 70px;
+
+}
+.spongebob{
+
+    position: absolute;
+    left:80%;
+
+}
+.list{
+    color: whitesmoke;
+}
+.copyright{
+    text-align: center;
+}
+.list-inline{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin: 0 45px;
+  
+    text-align: left;
+   
+}
+a {
+    text-decoration: none;
+    font-size: 20 px;
+    padding: 33px 0;
+    color: white;
+}
+.contact{
+    position: absolute;
+    text-align: left;
+    width: 300;
+    margin:0 200px;
+}
+.welcome{
+    text-align: center;
+   font-size: 100px;
+}
+.form{
+  
+    position: absolute;
+    width: 300px;
+    height:100px;
+    left:50%;
+    top:100%;
+   
+}
+
+
+
+
+
+
+  
+
+
